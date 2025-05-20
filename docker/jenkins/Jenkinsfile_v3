@@ -10,7 +10,7 @@ pipeline {
         stage('Clone') {
             steps {
                 timeout(time: 10, unit: 'MINUTES'){
-                    git 'https://github.com/arlysanchez/ecommerce_Dockerizado.git'
+                    git 'https://github.com/arlysanchez/prueba1_jenkins.git''
                 }
             }
         }
